@@ -16,7 +16,8 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "types": ["node"]
   },
   "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "**/*.vue", "src/types/*.d.ts"],
   "exclude": ["node_modules", "dist", "build", "coverage", "src/types"],
